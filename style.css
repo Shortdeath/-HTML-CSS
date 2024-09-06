@@ -1,0 +1,123 @@
+body {
+  font-family: "Helvetica";
+  background-image: url(/фон\ для\ визитки.jpg);
+  background-size: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin: 40px 0;
+}
+
+.header__avatar {
+  border-radius: 50%;
+  max-width: 400px;
+  box-shadow: rgb(233, 146, 5) 1px 0 40px;
+}
+
+.header__title {
+  display: block;
+  margin-left: 40px;
+  text-shadow: rgb(255, 204, 2) 1px 0 7px;
+  color: #ded3c9;
+  font-size: 50px;
+  line-height: 1.5;
+  font-family: "Tahoma";
+}
+
+.header__subtitle {
+  margin-left: 40px;
+  color: #cb782f;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.links {
+  width: 320px;
+  margin-bottom: 20px;
+}
+
+.links__header {
+  font-family: "Comic Sans MS";
+  font-size: 25px;
+  text-shadow: rgb(255, 204, 2) 1px 0 7px;
+  color: #ded3c9;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+}
+
+.links__container {
+  list-style-type: none;
+  background: linear-gradient(rgb(54, 13, 103), rgb(79, 56, 37));
+  border-radius: 10px;
+  outline: 3px solid rgb(255, 204, 2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 10px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.links__link,
+.links__title {
+  color: #ffffff;
+  font-size: 14px;
+  font-size: 1.4;
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid #dadada;
+  width: 280px;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #cb782f;
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 98px 0;
+}
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: #cb782f;
+  border-radius: 20px;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #ffffff;
+  text-decoration: none;
+}
